@@ -20,10 +20,10 @@
 .works-list-item {
     margin-right: 30px;
     position: relative;
-}
 
-.works-list-item:last-child {
-    margin-right: 0;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .works-list-item-text {

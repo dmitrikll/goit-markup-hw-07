@@ -21,16 +21,15 @@
     margin: 0;
     padding: 13px 16px;
     border-radius: 4px;
-
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: var(--background-footer-color);
     color: var(--active-button-text-color);
-}
 
-.footer-subscrible-input::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    color: rgba(255, 255, 255, 0.6);
+    &::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
+    }
 }
 
 .footer-subscrible-btn {
@@ -53,13 +52,13 @@
     cursor: pointer;
     min-height: 43px;
     margin-left: 12px;
-}
 
-.footer-subscrible-btn::after {
-    content: '';
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
-    background-image: url(../images/send.svg);
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        background-image: url(../images/send.svg);
+    }
 }

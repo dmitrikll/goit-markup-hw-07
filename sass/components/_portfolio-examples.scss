@@ -11,6 +11,17 @@
     margin-left: 30px;
     margin-top: 30px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 }
 
 .portfolio-example-pic {
@@ -31,7 +42,6 @@
     letter-spacing: 0.03em;
     color: var(--active-button-text-color);
     background-color: rgba(33, 150, 243, 0.9);
-    ;
     padding: 63px 24px;
     /* overflow: auto; */
     transform: translateY(100%);
@@ -41,12 +51,6 @@
 .portfolio-example-link:hover .overlay,
 .portfolio-example-link:focus .overlay {
     transform: translateY(0%);
-}
-
-.portfolio-example-item:hover,
-.portfolio-example-item:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .img-size {
