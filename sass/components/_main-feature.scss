@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.feature-list-item {
+.feature-list__item {
     margin-right: 30px;
     max-width: 270px;
 
@@ -17,7 +17,7 @@
     }
 }
 
-.feature-list-picture {
+.feature-list__picture {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
     background-color: var(--background-page-color);
 }
 
-.feature-list-title {
+.feature-list__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -38,7 +38,7 @@
     color: var(--main-text-color);
 }
 
-.features-list-description {
+.features-list__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
